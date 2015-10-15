@@ -13,3 +13,9 @@ A simple implementation by manually inserting all the constraints
 ```sh
 glpsol -m basic.mod -o solution.out
 ```
+
+### Vectorized Implementation
+A vectorized (matrix) implementation with a specific file used for the data 
+```sh
+glpsol -m vectorized.mod -d vectorized.dat -o solution.out
+```

@@ -22,9 +22,14 @@ sudo make install	#install in `usr/local/bin', `usr/local/lib', etc
 make distclean		#remove source & configuration files
 ```
 
+Usage
+-----------
+Check inner folders of repo for problems solutions
+
 Uninstallation
 --------
 In the same folder execute
 ```sh
 make uninstall
 ```
+
